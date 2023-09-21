@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Menus.css"
 import { FcHome, FcAbout, FcPortraitMode, FcBiotech, FcReadingEbook, FcVideoProjector, FcVoicePresentation, FcBusinessContact } from "react-icons/fc"
+import Profile from "../../assets/images/profile.png"
 
 
 
@@ -11,7 +12,8 @@ const Menus = ({ toggle }) => {
                 toggle ? (
                     <>
                         <div className="navbar-profile-pic">
-                            <img src="https://cdn.pixabay.com/photo/2020/08/08/02/56/hacker-5471975_640.png" alt="" />
+                            {/* <img src="https://cdn.pixabay.com/photo/2020/08/08/02/56/hacker-5471975_640.png" alt="" /> */}
+                            <img src={Profile} alt="Profile" />
                         </div>
                         <div className="nav-items">
                             <div className="nav-item">

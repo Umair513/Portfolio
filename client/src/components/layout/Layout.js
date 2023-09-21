@@ -25,7 +25,7 @@ const Layout = () => {
                     <Menus toggle={toggle}></Menus>
                 </div>
                 <div className='container'>
-                    <Home></Home>
+                    <Home toggle={toggle}></Home>
                 </div>
             </div >
         </>
