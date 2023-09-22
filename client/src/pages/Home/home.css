@@ -1,23 +1,44 @@
 .home-container {
-  height: 300px;
+  height: 629px;
   color: white;
-  margin-left: 50px;
+  /* margin-left: 50px; */
+  padding-left: 50px;
+  display: flex;
+}
+
+.model {
+  margin-top: 50px;
+  margin-right: 0px;
+  border-radius: 100px;
+}
+
+.model img {
+  border-radius: 1000px;
+}
+
+.home-content {
+  margin-top: 150px;
 }
 
 .home-content h1 {
   padding: 5px;
   padding-top: 80px;
+  font-size: 80px;
 }
 
 .home-content h2 {
   padding: 5px;
   /* padding-top: 80px; */
   color: #e0b50f;
+  font-size: 50px;
 }
 .home-buttons .btn-hire {
   background-color: #3b8ff3;
   color: white;
   width: 160px;
+  font-size: 25px;
+  font-weight: bolder;
+  margin-top: 25px;
 }
 .home-buttons .btn-hire:hover {
   background-color: white;
@@ -29,6 +50,9 @@
   background-color: #f29f67;
   color: white;
   margin-left: 15px;
+  font-size: 25px;
+  font-weight: bolder;
+  margin-top: 25px;
 }
 
 .home-buttons .btn-cv:hover {
