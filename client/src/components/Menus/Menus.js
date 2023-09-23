@@ -24,20 +24,20 @@ const Menus = ({ toggle }) => {
                                     <FcAbout></FcAbout>   About
                                 </div>
                                 <div className="nav-link">
-                                    <FcPortraitMode></FcPortraitMode>   Work Experience
+                                    <FcReadingEbook></FcReadingEbook>   Education
                                 </div>
+
                                 <div className="nav-link">
                                     <FcBiotech></FcBiotech>   Tech Stack
                                 </div>
-                                <div className="nav-link">
-                                    <FcReadingEbook></FcReadingEbook>   Education
-                                </div>
+
                                 <div className="nav-link">
                                     <FcVideoProjector></FcVideoProjector>   Projects
                                 </div>
                                 <div className="nav-link">
-                                    <FcVoicePresentation></FcVoicePresentation>   Testimonial
+                                    <FcPortraitMode></FcPortraitMode>   Work Experience
                                 </div>
+
                                 <div className="nav-link">
                                     <FcBusinessContact></FcBusinessContact>   Contact
                                 </div>
