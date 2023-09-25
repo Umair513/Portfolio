@@ -1,0 +1,103 @@
+.contact {
+  margin-left: 100px;
+}
+
+.contact h2 {
+  font-weight: bold;
+  color: #138781;
+}
+
+.contact .container1 {
+  display: flex;
+}
+.contact .right {
+  width: 710px;
+}
+.contact .right h5 {
+  margin-top: 15px;
+  margin-left: 60px;
+}
+.contact .right .linkedin {
+  color: blue;
+  margin-left: 10px;
+  font-size: 30px;
+}
+.contact .right .github {
+  color: black;
+  margin-left: 10px;
+  font-size: 30px;
+}
+.contact .right .facebook {
+  color: blue;
+  margin-left: 10px;
+  font-size: 30px;
+}
+.contact .right .or {
+  margin-left: 170px;
+}
+
+.contact .right input {
+  width: 350px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+.contact .right textarea {
+  width: 350px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+.contact .right button {
+  width: 350px;
+  margin-left: 20px;
+}
+
+.contact img {
+  padding: 30px;
+  height: 100%;
+  width: 100%;
+}
+
+.contact .right {
+  border-left: 1px solid #e0e0e0e0;
+}
+
+::placeholder {
+  color: #bdbdbd;
+  opacity: 1;
+  font-weight: 300;
+}
+input,
+textarea {
+  padding: 10px 12px;
+  border: 1px solid lightgray;
+  border-radius: 2px;
+  margin-top: 7px;
+  width: 100%;
+  color: #138781;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+input:focus,
+textarea:focus {
+  box-shadow: none;
+  outline: 1px solid #138781;
+  outline-width: 0px;
+}
+
+button:focus {
+  box-shadow: none;
+  outline-width: 0px;
+}
+.button {
+  background-color: #1e1e2c;
+  color: white;
+  border-radius: 2px;
+  margin-top: 15px;
+  padding: 10px;
+}
+
+.button:hover {
+  background-color: black;
+  color: white;
+}
