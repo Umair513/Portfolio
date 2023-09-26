@@ -5,7 +5,7 @@ import { BsLinkedin, BsGithub, BsFacebook } from "react-icons/bs"
 const Contact = () => {
     return (
         <>
-            <div className="contact">
+            <div className="contact" id='contact'>
                 <h2 className='col-12 mt-5 mb-1 text-center text-uppercase'>Contact With Us</h2>
                 <div className="container1">
                     <img src="https://img.freepik.com/free-photo/hot-line-contact-us-call-center-search-interface_53876-124009.jpg" alt="contact" />

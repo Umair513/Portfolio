@@ -7,7 +7,7 @@ import Video from "../../assets/images/video.png"
 const Projects = () => {
     return (
         <>
-            <div className="container project">
+            <div className="container project" id='projects'>
                 <h2 className='col-12 mt-5 mb-1 text-center text-uppercase'>TOP RECENT PROJECTS</h2>
                 <hr></hr>
                 <p className='pb-3 text-center'>Here are my top 3 recent projects with live links and source code</p>

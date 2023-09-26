@@ -7,7 +7,7 @@ import Model from "../../assets/images/model.png"
 const Home = ({ toggle }) => {
     return (
         <>
-            <div className="container-fluid home-container">
+            <div className="container-fluid home-container" id='home'>
                 <div className="container home-content">
                     <h1>Hi 👋 I'm a </h1>
                     <h2>
