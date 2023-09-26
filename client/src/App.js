@@ -5,6 +5,7 @@ import Education from "./pages/Education/Education";
 import Projects from "./pages/Projects/Projects";
 import Techstack from "./pages/Techstack/Techstack";
 import Work from "./pages/WorkEx/Work";
+import ScrollToTop from "react-scroll-to-top"
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
           Made With 🥰 Umair Ahmed &copy; 2023
         </h4>
       </div>
-
+      <ScrollToTop smooth style={{ backgroundColor: "#1e1e2c", borderRadius: "80px" }} color="#f29f67"></ScrollToTop>
     </>
   );
 }
