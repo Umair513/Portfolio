@@ -30,3 +30,14 @@
   padding: 20px;
   font-weight: bold;
 }
+
+/* ==== DARK MODE ==== */
+#dark .about {
+  box-shadow: none;
+  background-color: rgba(0, 0, 0, 0.15));
+}
+
+#dark .about-content h1 {
+  color: #b0a4a4;
+  border-bottom: 2px solid #b0a4a4;
+}
