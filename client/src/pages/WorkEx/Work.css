@@ -25,3 +25,10 @@
 .work-exp .vertical-timeline-element-subtitle {
   color: #1e1e2c78;
 }
+
+@media (max-with: 600px) {
+  .work {
+    margin: 0px;
+    padding: 0px;
+  }
+}

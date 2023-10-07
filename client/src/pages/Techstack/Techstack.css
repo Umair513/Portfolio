@@ -32,3 +32,10 @@
   font-size: 2rem;
   margin-right: 10px;
 }
+
+@media (max-width: 600px) {
+  .techstack {
+    margin: 0px;
+    padding: 0px;
+  }
+}

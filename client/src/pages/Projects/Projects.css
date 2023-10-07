@@ -75,3 +75,10 @@
   display: block;
   text-align: center;
 }
+
+@media (max-width: 600px) {
+  .project {
+    padding: 0px;
+    margin: 0px;
+  }
+}
